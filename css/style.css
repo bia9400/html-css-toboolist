@@ -33,7 +33,7 @@ section{
 }
 main .white-container{
     
-    height: 60px;
+    height: 80px;
     background-color: white;
     
 }
@@ -62,11 +62,10 @@ main .white-container{
     background-color: white;
     border-color: #d4d9dc;
 }
-main .container{
+.container{
     
     background-color: white;
     padding-left: 25px;
-    margin-top: 10px;
     
     
 }
