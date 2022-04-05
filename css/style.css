@@ -3,42 +3,108 @@
     border: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f6f8f9;
+}
+header > .logo{
+    display: inline-block;
+
+}
 header{
     width: 100%;
-    background-color: blue;
+    background-color:#ffffff;
+    font-size: 30px;
+    
+    
 }
 main{
     width: 900px;
-    background-color: red;
+    
+    background-color: #D0D1D3;
     margin: auto;
     margin-top: 30px;
+    font-size: 20px;
 }
-.buttons{
-    margin-left: 10px;
+section{
+    margin-top: 3px;
+    padding-top: 15px;
+    
+}
+main .buttons{
+    
     height: 60px;
+    background-color: white;
+    
 }
 
 .blue{
     display: inline-block;
-
-    width: 100px;
+    color: white;
+    width: 150px;
     margin-top: 35px;
-    font-size: 20px;
+    font-size: 15px;
     margin: 1px solid;
-    background-color: blue;
+    background-color: #47adf1;
     border-radius: 6%;
     text-align: center;
 
 }
 .white{
+    color:#d4d9dc;
     display: inline-block;
-    width: 110px;
+    width: 150px;
     margin-top: 35px;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 6%;
-    background-color: brown;
+    background-color: white;
+    border-color: #d4d9dc;
+    border: 1px solid;
     text-align: center;
 }
-.container{
+main .container{
     
+    background-color: white;
+    padding-left: 15px;
+    
+    
+}
+
+.icon{
+    border-color: green;
+    border-radius: 50%;
+    border: 1px solid;
+    display: inline-block;
+    color: green;
+    padding-left: 7px;
+
+}
+.ending {
+    display: inline-block;
+    background-color: green;
+    border-radius: 20%;
+    color: white;
+    font-size: 8 px;
+    margin-left: 5px;
+}
+.red
+{
+    color: red;
+}
+section div {
+    margin-top: 8px;
+}
+section div .ending {
+    font-size: 14px;
+}
+.title{
+    font-weight: bold;
+}
+#blue {
+    background-color: #45abea;
+}
+#purple{
+    background-color: #9c72e4;
+}
+#orange{
+    background-color: #f29e33;
 }
