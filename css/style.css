@@ -76,31 +76,31 @@ main .container{
     border: 1px solid;
     display: inline-block;
     color: #7bcab7;
-    padding-left: 7px;
-    font-size: 12px;
-    margin: auto;
+    font-size: 14px;
 
 }
-.ending {
+section .ending {
+    width: 100px;
+    height: 20px;
     display: inline-block;
-    background-color: green;
-    border-radius: 8%;
+    background-color:#64c0a9;
+    border-radius: 8rem;
     color: white;
-    font-size: 8 px;
+    font-size: 12px;
     margin-left: 5px;
+    text-align: center;
+    line-height: 20px;
 }
 .red
 {
     color: #ee8581;
 }
-section div {
+section>div {
     margin-top: 8px;
 }
-section div .ending {
-    font-size: 14px;
-}
+
 .title{
-    font-weight: bold;
+    font-weight: 900;
 }
 #blue {
     background-color: #45abea;
