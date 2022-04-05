@@ -27,8 +27,8 @@ main{
     font-size: 20px;
 }
 section{
-    margin-top: 3px;
-    padding-top: 15px;
+    margin-top: 20px;
+    
 
 }
 main .white-container{
@@ -65,7 +65,8 @@ main .white-container{
 main .container{
     
     background-color: white;
-    padding-left: 15px;
+    padding-left: 25px;
+    margin-top: 10px;
     
     
 }
@@ -77,6 +78,7 @@ main .container{
     display: inline-block;
     color: #7bcab7;
     font-size: 14px;
+
 
 }
 section .ending {
@@ -95,12 +97,13 @@ section .ending {
 {
     color: #ee8581;
 }
-section>div {
-    margin-top: 8px;
-}
+
 
 .title{
     font-weight: 900;
+}
+.icon-container{
+    margin-top: 7px;
 }
 #blue {
     background-color: #45abea;
